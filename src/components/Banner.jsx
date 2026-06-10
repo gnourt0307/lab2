@@ -1,6 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Banner.css";
 import tshirtMockup from "../assets/t-shirt-mockup.jpg";
 import hoodieMockup from "../assets/white-hoodie-mockup.jpg";
 import skirtMockup from "../assets/skirt-mockup.jpg";
@@ -30,6 +29,7 @@ function Banner() {
         <Carousel.Item key={slide.title}>
           <img
             className="banner-image d-block w-100 object-fit-cover"
+            style={{ maxHeight: "800px", minHeight: "280px" }}
             src={slide.image}
             alt={slide.title}
           />
