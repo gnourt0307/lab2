@@ -1,0 +1,10 @@
+.banner-image {
+  max-height: 800px;
+  min-height: 280px;
+}
+
+@media (max-width: 576px) {
+  .banner-image {
+    min-height: 240px;
+  }
+}
