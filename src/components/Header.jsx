@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Cart } from "react-bootstrap-icons";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Header.css";
 import logo from "../assets/logo.png";
 
 const navLinks = ["Home", "Products", "Men", "Women", "Contact"];

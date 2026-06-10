@@ -2,7 +2,6 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Badge from "react-bootstrap/Badge";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./ProductCard.css";
 
 function ProductCard({ product, onAddToCart, isAdded = false }) {
   const handleAddToCart = () => {
